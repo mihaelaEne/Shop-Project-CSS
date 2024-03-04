@@ -1,0 +1,195 @@
+body{
+background-color: white;
+font-family:'Arial', sans-serif;
+margin: 0;
+padding: 0;
+}
+
+
+
+.header-container{
+    display: flex;  
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.aside-container{
+    border:1px solid  rgb(198, 194, 194);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.order-details{
+    display: flex;
+    flex-direction: row;
+    gap:5px;
+ 
+    margin-bottom: 30px;
+
+}
+
+
+
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.product-card{
+    border:2px solid rgb(174, 164, 164);
+    width: 97%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+.qty{
+    margin-top: 35px;
+    margin-left: 20px;
+    
+    border:1px solid grey;
+    width: 5%;
+   
+}
+
+.product-footer{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.product-container-name{
+    text-align: left;
+    font-size: large;
+    max-width: 269px;
+    max-height: 24px;
+    margin-left: 40px;
+    color: #18583a;
+    }
+    
+    
+    .detils{
+       text-align: center;
+        max-width: 269px;
+        max-height: 80px;
+        margin: auto;
+    
+        
+    }
+    
+    .product-main p{
+        margin-left: 40px;
+    }
+    .price{
+        max-width: 50px;
+        margin-left: 20px;
+        border-top: 2px solid rgb(198, 196, 196);
+        text-align: left;
+       font-size: 20px;
+    }
+
+    .remove{
+        color: red;
+        background-color: white;
+        border: 1px solid red;
+        width: 50%;
+       margin-left: 30px;
+       margin-bottom: 20px;
+    }
+
+.aside-footer{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.continue-shopping {
+    background-color:white;
+    width: 80%;
+    margin-left: 20px;
+    border: 1px solid rgb(218, 213, 213);
+    
+  
+}
+
+.checkout{
+    border: none;
+    background-color:#4ee09a;
+    width: 80%;
+    margin-left: 20px;
+}
+
+
+.footer-container{
+    text-align: center;
+    background-color: #132322;
+    color: white;
+
+}
+
+
+.fa-brands {
+  color: #4ee09a;
+}
+
+
+.footer-container-legal a{
+    color:white;
+}
+
+
+
+  
+
+/* tableta >600px */
+@media(min-width:480px){
+.product-footer{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.remove{
+    background-color: white;
+    border:1px solid red;
+    color:red;
+    align-items: end;
+    margin-bottom: 20px;
+
+
+}
+
+
+
+.aside-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.continue-shopping {
+    background-color:white;
+    width: 30%;
+    margin-left: 20px;
+    border: 1px solid rgb(218, 213, 213);
+    
+  
+}
+
+.checkout{
+    border: none;
+    background-color:#4ee09a;
+    width: 30%;
+    margin-left: 20px;
+}
+
+}
+    
